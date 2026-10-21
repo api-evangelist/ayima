@@ -1,0 +1,47 @@
+edges:
+- partner_name: Amazon Ads Partner Directory
+  partner: amazon
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://advertising.amazon.com/partners/directory
+  category: Amazon Ads partner (services)
+  contract_reference:
+    register: Amazon Ads Partner Directory (advertising.amazon.com/partners/directory, GetPartners)
+    registered_name: Ayima
+    register_id: amzn1.ads1.ma1.e2w431af5w4u60uxuk5yx21md
+    matched_domain: ayima.com
+    matched_by: domain
+    services:
+    - AUDIENCE_AND_TARGETING
+    - CAMPAIGN_MANAGEMENT
+    - CAMPAIGN_REPORTING
+    - DETAIL_PAGE_SET_UP
+    ads_products:
+    - AMAZON_DSP
+    - SPONSORED_BRANDS
+    - SPONSORED_DISPLAY
+    - SPONSORED_PRODUCTS
+    - STORES
+    service_models:
+    - AGENCY
+    signal_note: listing = participation; accreditation recorded as partner_tier; ads_certifications are Amazon
+      Ads LEARNING certifications held by staff, not product conformance, never certified_products
+    detected_by: sweep-amazon-sp-api-appstore.py
+    detected: '2026-10-21'
+  detected_by: sweep-amazon-sp-api-appstore.py
+  detected: '2026-10-21'
+  partner_tier:
+  - VERIFIED_PARTNER
+generated: '2026-10-21'
+method: searched
+source:
+- https://sellercentral.amazon.com/selling-partner-appstore
+- https://advertising.amazon.com/partners/directory
+- https://sellercentral.amazon.com/gspn
+checked:
+- https://advertising.amazon.com/partners/directory
+- https://sellercentral.amazon.com/gspn
+- https://sellercentral.amazon.com/selling-partner-appstore
